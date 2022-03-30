@@ -12,7 +12,7 @@ body {
     box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0,0,0,0.16);
     margin: 0 auto;
     width: 300px;
-    height: 500px;
+    height: 450px;
     border-radius: 20px;
     display: flex;
     padding: 20px;
@@ -24,7 +24,7 @@ body {
 .display {
     background-color: #f1f3f5;
     box-shadow: inset 2px 3px 11px rgb(0,0,0,0.16), 5px 5px 12px #fff;
-    height: 30%;
+    height: 25%;
     width: 100%;
     border-radius: 20px;
     display: flex;
@@ -40,7 +40,7 @@ body {
     outline: none;
 }
 
-.button {
+.buttons {
     height: 70%;
     display: flex;
     width: 100%;
@@ -49,7 +49,7 @@ body {
     margin-top: 20px;
 }
 
-.tombol-kiri {
+.btn-left {
     width: 70%;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -57,7 +57,7 @@ body {
     align-items: center;
 }
 
-.tombol {
+.btn {
     background-color: #f1f3f5;
     box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0,0,0,0.16);
     border: none;
@@ -65,15 +65,16 @@ body {
     width: 50px;
     border-radius: 100%;
     font-size: 15px;
+    font-weight: 700;
     cursor: pointer;
     color: tomato;
 }
 
-.tombol:hover {
+.btn:hover {
     transform: scale(0.9);
 }
 
-.tombol-kanan {
+.btn-right {
     width: 30%;
     border-radius: 20px;
     background-color: rgba(255, 229, 188, 0.671);
@@ -83,4 +84,8 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
 }
